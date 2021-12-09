@@ -97,7 +97,6 @@ install_standalone() {
         sh_c="sudo_sh_c"
     fi
 
-
     if [ -e "$STANDALONE_INSTALL_PREFIX/lib/tym-$VERSION" ]; then
         echo
         echo "tym-$VERSION is already installed at $STANDALONE_INSTALL_PREFIX/lib/tym-$VERSION"
@@ -119,7 +118,6 @@ install_standalone() {
         echo "  tym"
         echo
     else
-
         echo_standalone_postinstall
     fi
 }
